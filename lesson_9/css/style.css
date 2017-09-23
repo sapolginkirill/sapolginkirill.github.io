@@ -55,7 +55,7 @@ header{
 	font-family: 'Raleway', sans-serif;
 	display: inline-block;
 	margin: 0rem 2rem;
-	margin-left: 3rem;
+	margin-left: 1rem;
 	text-transform: uppercase;
 }
 .nav__ul__li a:hover{
