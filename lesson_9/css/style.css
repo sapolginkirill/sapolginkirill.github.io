@@ -35,6 +35,7 @@ header{
 	background-color: #fff;
 }
 .logo__text{
+	padding-left: 0rem;
 	font-size: 2.3rem;
 	vertical-align: sub;
 	color: #202242;
@@ -51,11 +52,11 @@ header{
 	border-right: 1px solid #f5f3f3;
 }
 .nav__ul__li{
-	font-size:1rem;
+	font-size:1.5rem;
 	font-family: 'Raleway', sans-serif;
 	display: inline-block;
-	margin: 0rem 2rem;
-	margin-left: 1rem;
+	margin: 0rem 0.5rem;
+	margin-left: 3rem;
 	text-transform: uppercase;
 }
 .nav__ul__li a:hover{
