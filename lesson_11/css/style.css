@@ -1,0 +1,97 @@
+
+.bold{
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}
+.norm{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.von{
+ padding-top: 50px;
+  background-image: url(../img/vqv5Avu.jpg);
+  height: 1080px;
+}
+
+.header_h1{
+  text-align:center;
+  
+  font-size:100px;
+  color:#337AB7;
+}
+.header_h1 span{
+  font-weight: bold;
+  color:white;
+}
+.border{
+   border:4px solid #FFCE41;
+  height:200px;
+  width: 800px;
+  margin: 0px auto 200px auto;
+}
+
+
+
+ .box{
+   height: 400px;
+   width: 400px;
+   background-image: url(../img/mars.png);
+   opacity: 0;
+  
+}
+.wrapper{
+  height: 400px;
+  width: 400px;
+  text-align: center;
+  margin: 0px auto;
+
+ 
+ background-color: grey;
+ border-radius: 50%;
+}
+.box{
+  height: 400px;
+  width: 400px;
+  background-image: url(../img/mars.png);
+  opacity: 0;
+  border-radius:50%;
+
+
+}
+.box:hover{
+  opacity:1;
+  -webkit-transition: all 2s;
+  -o-transition: all 2s;
+  transition: all 2s;
+  box-shadow: 0px 0px 500px red;
+  border-radius:50%;
+}
+.box-span{
+  height400px;
+  width: 250px;
+  border-bottom: 3px solid white;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+.box span{
+  display:block;
+  font-size: 80px;
+  color:white;
+
+}
+.box a{
+  line-height: 100px;
+  padding: 10px 20px;
+  font-size:30px;
+  color:white;
+  text-decoration: none;
+  border: 2px solid white;
+}
+.box a:hover{
+  border: 4px solid white;
+  font-size:40px;
+  -webkit-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+}
