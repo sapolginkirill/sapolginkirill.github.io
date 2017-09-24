@@ -1,0 +1,104 @@
+/*==============basic settings=================*/
+a:hover{
+	text-decoration: none;
+}
+body{
+	height: 677px;
+}
+/*===============fonts==================*/
+.open{
+	font-family: 'Open Sans', sans-serif;
+}
+.semi{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+
+/*=============color==============*/
+.orenge{
+	color:#fd8569;
+}
+.grey{
+	color:#8a8a8a;
+}
+.blue{
+	background-color:#4eb2f7;
+}
+.pink{
+	background-color:#f74770;
+}
+.purple{
+	background-color:#c049f8;
+}
+.dark-blue{
+	background-color:#817eff;
+}
+/*==========content============*/
+.header_caption{
+	padding-top: 90px;
+	font-size: 50px;
+    line-height: 0.915;
+ 
+}
+.header_text{
+	padding-bottom: 90px;
+	font-size: 16px;
+    line-height: 1.5;
+ 
+}
+.card{
+	height: 290px;
+	width: 250px;
+	color:#fff;
+	margin: 0 auto;
+}
+.card:hover{
+	  box-shadow: 0px 0px 35px 0px rgba(20, 20, 21, 0.21);
+}
+
+.card_img{
+	margin: 0 auto;
+	font-size: 50px;
+	padding-top: 50px;
+}
+
+.card a{
+	position: relative;
+	top: 30px;
+	background-color: #fff;
+	padding: 20px 55px;
+	border-radius: 30px;
+	color:#585858;
+	font-size: 16px;
+	line-height: 1.563;
+	box-shadow: 0px 0px 14px 0px rgba(20, 20, 21, 0.05);   
+}
+.card a:hover{
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 6px 14px 0px rgba(20, 20, 21, 0.09);
+	
+}
+.card h3{
+	font-size: 20px;
+    line-height: 2.1;
+}
+.card p{
+	font-size: 15px;
+	line-height: 1.467;
+}
+.fa-plus{
+	margin-right: 10px;
+}
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+  
