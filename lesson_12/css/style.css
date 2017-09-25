@@ -1,0 +1,219 @@
+/*============    ШРИФТЫ    ===========*/
+.norm {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+.bold {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+/*============    ГЛАВНЫЙ ЭКРАН    ===========*/
+.trs {
+  -webkit-transition: all 2s;
+  -o-transition: all 2s;
+  transition: all 2s;
+}
+.trs-2 {
+  -webkit-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+}
+ul {
+  padding: 0;
+}
+a:hover {
+  text-decoration: none;
+}
+.header {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  background-image: url(../img/header-background-indexed.png);
+}
+.wrapper {
+  background-color: silver;
+  height: 100vh;
+}
+.social {
+  height: 50px;
+  padding: 0px 70px;
+}
+.social a {
+  -webkit-transition: all 2s;
+  -o-transition: all 2s;
+  transition: all 2s;
+  line-height: 25px;
+  font-size: 30px;
+  margin-left: 20px;
+  color: white;
+}
+.social a:hover {
+  color: #FFCE41;
+}
+.header-nav {
+  height: 50px;
+  text-align: center;
+}
+.header-nav .nav-ul {
+  border-bottom: 1px solid silver;
+  height: 50px;
+  line-height: 25px;
+}
+.header-nav .nav-ul .ul-item {
+  display: inline-block;
+  margin-left: 20px;
+}
+.header-nav .nav-ul .ul-item a {
+  color: white;
+  font-size: 20px;
+}
+.header-nav .nav-ul .ul-item a:hover {
+  -webkit-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+  color: #FFCE41;
+  font-size: 23px;
+  border: 1px solid white;
+  padding: 5px 5px;
+}
+.header-login {
+  height: 50px;
+  text-align: center;
+}
+.header-login a {
+  background: transparent;
+  line-height: 30px;
+  border: 1px solid white;
+  padding: 10px	20px;
+  border-radius: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+.header-login a:hover {
+  -webkit-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+  background: white;
+  color: #FFCE41;
+}
+.content {
+  margin-bottom: 0px;
+}
+.content h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.content h1 span {
+  color: #FFCE41;
+}
+.content p {
+  text-align: center;
+  font-size: 20px;
+}
+.arrow {
+  text-align: center;
+  font-size: 60px;
+}
+.popup {
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  position: fixed;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+  transition: all 0.2s;
+  display: none;
+}
+.popup-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+.popup-overlay:target {
+  display: block;
+}
+.popup-overlay:target + .popup {
+  display: block;
+}
+.popup-close {
+  position: absolute;
+  top: .5;
+  right: 1rem;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.wrap-2 {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  line-height: 100px;
+}
+.wrap-2 a {
+  color: white;
+  font-size: 30px;
+  background-color: transparent;
+  padding: 20px 100px;
+  border: 3px solid white;
+  border-radius: 30px;
+}
+.wrap-2 a:hover {
+  -webkit-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+  background-color: #fff;
+  color: #FFCE41;
+}
+.cube {
+  height: 100px;
+  width: 100%;
+  line-height: 100px;
+  text-align: center;
+  font-size: 100px;
+  margin-top: 100px;
+}
+.cube-item {
+  color: black;
+}
+.cube-item:hover {
+  color: pink;
+  -webkit-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+}
+.popup {
+  border-radius: 15px;
+}
+.popup-close {
+  color: #FFCE41;
+  font-size: 30px;
+}
+.popup-close:hover {
+  color: black;
+}
+.popup p {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.descript {
+  margin-top: 40px;
+}
+section .text {
+  font-size: 17px;
+}
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ПОДВАЛ    ===========*/
+/*============    	ВСПЛЫВАЮЩИЕ ОКНА    ===========*/
+/*============    	АДАПТИВ    ===========*/
