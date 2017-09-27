@@ -1,0 +1,178 @@
+/*============    ШРИФТЫ    ===========*/
+@font-face {
+  font-family: 'Panton';
+  src: url('../fonts/Panton-SemiBold.eot');
+  src: url('../fonts/Panton-SemiBold.eot?#iefix') format('embedded-opentype'), url('../fonts/Panton-SemiBold.woff2') format('woff2'), url('../fonts/Panton-SemiBold.woff') format('woff'), url('../fonts/Panton-SemiBold.ttf') format('truetype'), url('../fonts/Panton-SemiBold.svg#Panton-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Panton';
+  src: url('../fonts/Panton-ExtraBold.eot');
+  src: url('../fonts/Panton-ExtraBold.eot?#iefix') format('embedded-opentype'), url('../fonts/Panton-ExtraBold.woff2') format('woff2'), url('../fonts/Panton-ExtraBold.woff') format('woff'), url('../fonts/Panton-ExtraBold.ttf') format('truetype'), url('../fonts/Panton-ExtraBold.svg#Panton-ExtraBold') format('svg');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Panton';
+  src: url('../fonts/Panton-Light.eot');
+  src: url('../fonts/Panton-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Panton-Light.woff2') format('woff2'), url('../fonts/Panton-Light.woff') format('woff'), url('../fonts/Panton-Light.ttf') format('truetype'), url('../fonts/Panton-Light.svg#Panton-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Panton';
+  src: url('../fonts/Panton-Black.eot');
+  src: url('../fonts/Panton-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/Panton-Black.woff2') format('woff2'), url('../fonts/Panton-Black.woff') format('woff'), url('../fonts/Panton-Black.ttf') format('truetype'), url('../fonts/Panton-Black.svg#Panton-Black') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+.black {
+  font-family: 'Panton', sans-serif;
+  font-weight: 900;
+}
+.bold {
+  font-family: 'Panton', sans-serif;
+  font-weight: 700;
+}
+.semi {
+  font-family: 'Panton', sans-serif;
+  font-weight: 600;
+}
+.light {
+  font-family: 'Panton', sans-serif;
+  font-weight: 300;
+}
+/*============    ГЛАВНЫЙ ЭКРАН    ==========*/
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.header-top {
+  padding: 10px 0px ;
+}
+.header-top-logo {
+  color: #363636;
+  float: left;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+.header-top-help {
+  line-height: 2;
+  float: right;
+  font-size: 20px;
+  text-align: center;
+  line-height: ;
+}
+.header-top-help a {
+  display: block;
+  color: #363636;
+  border: 2px solid #363636;
+  border-radius: 8px;
+}
+.header-top-help span {
+  color: #363636;
+}
+.header-nav {
+  background-color: #292d30;
+  padding: 10px 0px;
+}
+.nav-list {
+  text-align: center;
+  margin: 0;
+}
+.list-item {
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 20px;
+}
+.list-item a {
+  color: #fff;
+}
+.main-img-2 {
+  display: block;
+  width: 50px;
+  margin-left: 60%;
+}
+.header-main {
+  background-image: url(../img/bg.jpg);
+  height: 800px;
+  text-align: center;
+  color: #fff;
+}
+.header-main #img {
+  margin-top: 200px;
+  height: 45px;
+  white: 400px;
+  margin-bottom: 10px;
+}
+.header-main h2 {
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.header-main p {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.header-main span {
+  font-size: 16px;
+  display: block;
+}
+.header-main #main-span {
+  font-size: 16px;
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.header-main a {
+  background-color: #059feb;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.header-main #img-2 {
+  width: 30px;
+  height: 50px;
+}
+.line {
+  background-color: #059feb;
+  height: 5px;
+  width: 150px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.content h1 {
+  margin-top: 100px;
+}
+.content p {
+  font-size: 16px;
+}
+.card {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.card h4 {
+  padding: 5px 0px;
+}
+.card p {
+  font-size: 12px;
+}
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ПОДВАЛ    ===========*/
+/*============    	ВСПЛЫВАЮЩИЕ ОКНА    ===========*/
+/*============    	АДАПТИВ    ===========*/
