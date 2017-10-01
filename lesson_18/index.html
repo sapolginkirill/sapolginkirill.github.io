@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500&amp;subset=cyrillic" rel="stylesheet">
-    <script src="js/jquery-1.12.4.min.js"></script>
+    
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -51,43 +51,43 @@
         </div>
      </section>
     
-    <div class="hide">
+    
+    <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
-    <skript>
-    $('.form').validate({
-            rules: {
-                name: {
-                    required: true,
-                    minlength: 3
-                },
-                mail: {
-                    required: true,
-                    minlength: 7,
-                    email: true
-                },
-                pass: {
-                    required: true,
-                    minlength: 3,
-                }
+    <script>
+    $("#form").validate({
+            rules:{
+              name: {
+                required: true,
+                minlength: 2
+              },
+              mail: {
+                required: true,
+                minlength: 3,
+                email: true
+              },
+              pass: {
+                required: true,
+                minlength: 8
+              }
             },
             messages: {
-                name: {
-                    required: 'Это поле обязательно',
-                    minlength: 'Не менее 2-х символов'
-                },
-                mail: {
-                    required: 'Это поле обязательно',
-                    minlength: 'Не менее 7 символов',
-                    email: 'Введите корректный email'
-                },
-                pass: {
-                    required: 'Это поле обязательно',
-                    minlength: 'Не менее 3-х символов'
-                }
+              name:{
+                required: 'Введите имя',
+                minlength: 'Не менее 2-х символов'
+              },
+              mail: {
+                required: 'Введите  email',
+                minlength: 'Не менее 3-х символов',
+                email: 'Введите корректный email'
+              },
+              pass:{
+                required: 'Введите пароль',
+                minlength: 'пароль не менее 8 символов'
+              }
             }
-        });
-    </skript>
-    </div>
+          });
+    </script>
 
 
 

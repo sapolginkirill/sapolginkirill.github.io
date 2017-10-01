@@ -116,6 +116,30 @@ section {
 .card a:hover {
   text-decoration: none;
 }
+#input-name-error {
+  color: red;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  padding-left: 100px;
+  position: absolute;
+  margin-top: 5px;
+}
+#input-email-error {
+  color: red;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  padding-left: 100px;
+  position: absolute;
+  margin-top: 5px;
+}
+#input-password-error {
+  color: red;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  padding-left: 100px;
+  position: absolute;
+  margin-top: 5px;
+}
 /*============    ШРИФТЫ    ===========*/
 /*============    ШРИФТЫ    ===========*/
 /*============    ШРИФТЫ    ===========*/
