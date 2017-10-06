@@ -1,0 +1,192 @@
+/*============    ШРИФТЫ    ===========*/
+.bold {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+.reg {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+/*============    ГЛАВНЫЙ ЭКРАН    ===========*/
+header {
+  background: url(../img/pyatna_kraska_fon_tekstura_117299_1280x1024.jpg) no-repeat right center;
+  height: 100vh;
+}
+.popup {
+  z-index: 9;
+  background-color: #fff;
+  border-radius: 20px;
+  display: block;
+  width: 300px;
+  height: 400px;
+  position: fixed;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+  color: #333;
+  text-align: center;
+  display: none;
+}
+.popup-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-close {
+  color: #333;
+  font-size: 25px;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  opacity: 0.6;
+}
+.popup-close:hover {
+  color: #333;
+  text-decoration: none;
+  opacity: 1;
+}
+/*============    ШРИФТЫ    ===========*/
+.link {
+  text-align: center;
+  font-size: 20px;
+  padding: 50px 0px;
+}
+.link .link-item {
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+}
+.link .link-item:hover {
+  color: #FFCD3F;
+  text-decoration: none;
+  border: 2px solid white;
+}
+.popup-form {
+  width: 300px;
+  border-radius: 20px;
+  height: 400px;
+}
+.popup-form h3 {
+  margin: 0;
+  margin: 30px 0px 40px 0px;
+}
+.popup-form h3:hover {
+  transition: all 0.1s;
+  color: #FFCD3F;
+}
+.popup-form .input-1 {
+  background: url(../img/2.svg) no-repeat center left;
+  background-size: 20px;
+  margin-top: 40px;
+  padding: 10px 20px;
+  padding-left: 30px;
+  border: none;
+  border-bottom: 1px solid silver;
+  outline: none;
+}
+.popup-form .input-1:hover {
+  border-bottom: 1px solid black;
+  transition: all .3s;
+}
+.popup-form .input-2 {
+  background: url(../img/3.svg) no-repeat center left;
+  background-size: 15px;
+  margin-top: 40px;
+  padding: 10px 20px;
+  padding-left: 30px;
+  border: none;
+  border-bottom: 1px solid silver;
+  outline: none;
+}
+.popup-form .input-2:hover {
+  border-bottom: 1px solid black;
+  transition: all .3s;
+}
+.popup-form .not {
+  margin-top: 30px;
+  padding: 10.5px 25px;
+  color: black;
+  font-weight: 700;
+  border: none;
+  border: 1px solid silver;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.popup-form .not:hover {
+  box-shadow: 0px 2px 20px black ;
+  transition: all 0.1s;
+  color: #FFCD3F;
+  text-decoration: none;
+}
+.popup-form .sign {
+  margin-top: 30px;
+  height: 40px;
+  width: 105px;
+  color: black;
+  font-weight: 700;
+  border: none;
+  border: 1px solid silver;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.popup-form .sign:hover {
+  box-shadow: 0px 2px 20px black ;
+  transition: all 0.1s;
+  color: #FFCD3F;
+}
+/*============    ШРИФТЫ    ===========*/
+#name-error {
+  position: absolute;
+  display: block;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  color: red;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+#pass-error {
+  position: absolute;
+  display: block;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  color: red;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+/*============    ШРИФТЫ    ===========*/
+.btn {
+  z-index: 0;
+}
+.btn-primary {
+  background: url(../img/paint-brush-2_icon-icons.com_52930.png) no-repeat center center;
+  margin-left: 50%;
+  background-size: 90%;
+  border: none;
+  height: 100px;
+  width: 100px;
+  transform: translateX(-50%);
+  background-color: transparent;
+}
+.btn-primary:hover {
+  background-color: transparent;
+}
+.btn-primary:focus {
+  outline: none;
+  background-color: transparent;
+}
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ПОДВАЛ    ===========*/
+/*============    	ВСПЛЫВАЮЩИЕ ОКНА    ===========*/
+/*============    	АДАПТИВ    ===========*/

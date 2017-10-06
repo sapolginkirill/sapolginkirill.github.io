@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Заголовок </title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+    <div class="link">
+      <a href="#modal-1" class="modal-link link-item reg">Авторизоваться</a>
+     <a href="#close" class="popup-overlay"></a>
+    </div>
+     <div class="popup">
+      <a href="#close" class="popup-close">&times;</a>
+       <div class="popup-form">
+         <form id="form" action="thanks.html">
+           <h3 class="bold">Авторизация</h3>
+           <input required name="name" class="input-1 reg" type="text" placeholder="Введите логин"> <br>
+           <input required name="pass" class="input-2 reg" type="text" placeholder="Введите пароль"> <br>
+           <a id="not" class="not reg" href="">отмена</a>
+           <button class="sign reg" type="submit">Войти</button>
+         </form>
+       </div>
+     </div>
+     <!-- Button trigger modal -->
+     <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modal">
+     </button>
+    </header>
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script>
+    $("#form").validate({
+            rules:{
+              name: {
+                required: true,
+                minlength: 2
+              },
+              pass: {
+                required: true,
+                minlength: 8
+              }
+            },
+            messages: {
+              name:{
+                required: 'Введите имя',
+                minlength: 'Не менее 2-х символов'
+              },
+              pass:{
+                required: 'Введите пароль',
+                minlength: 'пароль не менее 8 символов'
+              }
+            }
+          });
+    </script>
+    <script>
+      $(document).ready(function(){
+        var link = $('.modal-link');
+        var popup = $('.popup');
+        var close = $('.popup-close');
+        var overlay = $('.popup-overlay');
+        var not = $('.not');
+
+        link.on('click', function(){
+          overlay.show();
+          popup.show();
+        });
+        close.on('click',function(){
+          popup.hide();
+          overlay.hide();
+        });
+        overlay.on('click',function(){
+          popup.hide();
+          overlay.hide();
+        });
+        not.on('click', function(){
+          popup.hide();
+          overlay.hide();
+        });
+      });
+    </script>
+
+
+    
+
+    <!-- Modal -->
+        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                
+              </div>
+              <div class="modal-body">
+               <div class="row">
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eveniet quis, libero delectus. Id inventore rerum perspiciatis quod cupiditate, sequi quidem, beatae! Tenetur architecto saepe veritatis modi iste labore vitae, corporis accusamus, veniam, dicta sit aperiam beatae harum omnis temporibus. Eveniet sed, doloribus reprehenderit odit nihil? Magnam a eius praesentium quibusdam modi aperiam! Libero vero laborum, iure dolore! Repellendus veniam optio in, quidem neque labore excepturi facere fugiat rem ex, saepe, minima. Eligendi molestiae, asperiores minima maxime suscipit obcaecati. Consectetur hic ipsam dolorum eaque nostrum. Odio animi odit, ex pariatur facilis itaque aperiam deleniti libero voluptatibus et ullam inventore vero molestiae! Distinctio maxime excepturi assumenda quam animi, delectus recusandae, ut magni praesentium vitae neque asperiores et at. Corrupti itaque obcaecati, quos modi ut exercitationem repudiandae placeat excepturi. Atque maiores voluptas eius maxime ab debitis rem provident sint reiciendis, nostrum explicabo, iusto accusantium. Fugit sit temporibus eveniet possimus laboriosam debitis necessitatibus quidem aspernatur sint, ab enim quas a officiis at nobis blanditiis provident consequuntur fuga itaque tempora hic libero dolore magni error? Dolorum possimus deserunt, nisi asperiores id tempore accusantium. Nemo quam amet, reprehenderit corporis, velit culpa in rerum voluptates doloribus assumenda eligendi odio, accusantium repellat ab soluta! Maxime quod quia ea nulla fugiat fugit iusto tempore aspernatur repellat labore enim consectetur amet rem mollitia quo porro tempora, animi alias atque corporis laboriosam ullam facere, unde architecto. Nobis, error quisquam delectus sed, aut possimus beatae distinctio obcaecati repudiandae eligendi modi commodi, laborum fugit quae ex odit tenetur dicta esse magnam mollitia quod? Repellat suscipit cupiditate, dolore, quia qui minus alias dolores asperiores aut cum odio placeat quisquam distinctio ab vitae itaque veniam. Magnam fuga nostrum, excepturi dolorum autem repellat maiores assumenda, iure officiis asperiores itaque ut cumque inventore eius ullam beatae. Similique nulla aliquam soluta architecto asperiores sequi temporibus. Voluptates eos iure commodi in nemo dignissimos, totam harum atque id, consequatur facere laboriosam deleniti blanditiis quas porro est. Aliquid tempore a sunt esse, veritatis pariatur alias dolores? Sed voluptas ut, provident maxime excepturi laborum obcaecati explicabo temporibus aliquid delectus asperiores cumque vel! Sit sunt pariatur laudantium amet qui vel voluptates, ipsam perferendis, tempore, libero aliquam doloremque vero. Ex voluptas sapiente non est necessitatibus reprehenderit deleniti hic, et, a, repellendus quibusdam! Vel reprehenderit iusto amet libero molestiae quaerat quasi nostrum, culpa, obcaecati? Unde sapiente, fuga qui officia, magni ab est ullam neque illum maxime modi id velit, error sit eligendi omnis praesentium. Delectus a recusandae eum ex dolores ea ab eius veritatis sint provident quaerat, excepturi, quas unde, impedit fugit odio autem nulla obcaecati totam porro quo hic asperiores, molestias minima. Nesciunt quisquam possimus optio sint nam id. Unde quaerat impedit doloribus assumenda cum possimus iste laudantium maiores, commodi necessitatibus culpa dolores, excepturi molestiae quidem! Quisquam reiciendis tenetur saepe, natus, dolor commodi id nostrum doloribus ut! Repudiandae velit porro consequatur fuga error fugit, alias minima ipsa reprehenderit. Perspiciatis et ut perferendis esse excepturi ea, culpa aperiam nisi nam! Voluptatibus quia iure deserunt. Illum quam et voluptatibus libero, veritatis maiores fuga vitae suscipit dolores laudantium, vero ex reiciendis expedita, ad minus rerum aut ab quas repudiandae ut, beatae omnis nesciunt! Deleniti ratione possimus harum at repellat maiores veniam ex temporibus consectetur, exercitationem, officia iste. Quam tenetur fuga impedit numquam ipsum, autem odit quis adipisci minima sed consequatur sunt voluptatum ab iure, animi nemo voluptatibus alias tempora mollitia, veritatis libero ea porro itaque. Ex ratione, excepturi quis, porro nostrum aliquam eligendi qui adipisci maiores vero vitae asperiores laborum nemo. Esse earum dolor, nihil, quod quam numquam blanditiis suscipit unde quo assumenda, voluptates sint! Dicta cupiditate accusantium dolorum eaque nihil aliquam nam ad sunt ipsum.
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>
