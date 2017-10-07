@@ -19,7 +19,7 @@ html{
 
 header{
 	position:relative;
-	height: 77rem;
+	height: 71rem;
 	
 	background-color: silver;
 	p{
@@ -33,7 +33,7 @@ header{
 
 	}
 	.header-text{
-		padding-top: 1.5rem;
+		margin-top: 1.5rem;
 		color:white;
 		font-size:23px;
 	}
@@ -187,6 +187,7 @@ header{
 }
 
 /*============    ШРИФТЫ    ===========*/
+
 .no-video .video-container video,
 .touch .video-container video {
     display: none;
@@ -205,23 +206,29 @@ header{
     background: #000;
 }
 .video-container .poster img {
-    width: 100%;
+    width: 100vw;
     bottom: 0;
     position: absolute;
+    height: 71rem;
 }
 .video-container .filter {
     z-index: 100;
     position: absolute;
     background: rgba(0, 0, 0, 0.4);
-    width: 100%;
+    width: 100vw;
+    height: 77rem;
 }
 .video-container video {
     position: absolute;
     z-index: 0;
     bottom: 0;
+    top: 0;
+    height: 71rem;
+    width: 100vw;
 }
 .video-container video.fillWidth {
-    width: 100%;
+    width: 100vw;
+    height: 71rem;
 }
 
 /*============    ШРИФТЫ    ===========*/
