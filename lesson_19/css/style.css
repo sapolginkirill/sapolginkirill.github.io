@@ -11,6 +11,7 @@
 header {
   background: url(../img/pyatna_kraska_fon_tekstura_117299_1280x1024.jpg) no-repeat center center;
   height: 100vh;
+  width: 100vw;
 }
 .popup {
   z-index: 9;
