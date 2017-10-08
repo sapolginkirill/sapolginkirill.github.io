@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Заголовок </title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,500,700" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="logo">
+              <img src="img/Без-имени-1.png" alt="img" class="logo-img">
+            </div>
+          </div>
+          <div class="col-md-4"></div>
+          <div class="col-md-5">
+            <div class="nav">
+              <ul class="header-nav reg">
+                <li class="nav-list-1"><a href="#" class="list-item">How It Works</a></li>
+                <li class="nav-list-2"><a href="#" class="list-item">About Us</a></li>
+                <li class="nav-list-3"><a href="#" class="list-item">Contact Us</a></li>
+                <li class="nav-list-4"><a href="#" class="list-item">Blog </a></li>
+              </ul>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="main">
+      <div class="container row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+                    <div class="lt" data-relative-input="true" id="scene">
+                      <div  data-depth="0.5"><img src="img/lt.png" alt=""></div>
+                    </div>
+          <h1 class="bold">Track your next <br>fuel shops</h1>
+          <p class="ital">Monitor and Alert on all petrol bunks near to you </p>
+          <div class="main-text">
+            <span class="main-text-1 med">Signup For <span class="main-text-2 bold">Free</span></span>
+          </div>  
+          <form action="">
+            <input class="light" type="text" placeholder="Your E-mail  Adress">
+            <button class="med" type="submit">Signup</button>
+          </form>  
+                      <div class="lb" data-relative-input="true" id="scene-1">
+                        <div data-depth="0.2"><img src="img/lb.png" alt=""></div>
+                      </div>
+        </div>
+        <div class="col-md-6">
+                      <div data-relative-input="true" id="scene-3" class="rt">
+                        <div data-depth="0.2"><img src="img/rt.png" alt=""></div>
+                      </div>
+          <div class="img">
+            <img src="img/phone.png" alt="img">
+            <div data-relative-input="true" id="scene-4" class="rb">
+              <div data-depth="1.0"><img src="img/rb.png" alt=""></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+           <div class="content"><img class="content-img" src="img/1.png" alt="img"></div>
+          </div>
+          <div class="col-md-2">
+            <div class="content"><img class="content-img" src="img/2.png" alt="img"></div>
+          </div>
+          <div class="col-md-2">
+            <div class="content"><img class="content-img" src="img/3.png" alt="img"></div>
+          </div>
+          <div class="col-md-2">
+            <div class="content"><img class="content-img" src="img/4.png" alt="img"></div>
+          </div>
+          <div class="col-md-3">
+            <div class="content"><img class="content-img" src="img/5.png" alt="img"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <script src="js/parallax.min.js"></script>
+  <script>
+  // the onReady function is called as soon as Parallax knows what input method to use. This might take up to 1000ms (supportDelay * 2) after initialisation
+  var scene = document.getElementById('scene');
+  var parallax = new Parallax(scene);
+  var scene = document.getElementById('scene-1');
+  var parallax = new Parallax(scene);
+  var scene = document.getElementById('scene-3');
+  var parallax = new Parallax(scene);
+  var scene = document.getElementById('scene-4');
+  var parallax = new Parallax(scene);
+
+  </script>
+  
+
+
+
+    <!-- Modal -->
+        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                
+              </div>
+              <div class="modal-body">
+               <div class="row">
+                 
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
