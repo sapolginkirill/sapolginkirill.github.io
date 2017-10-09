@@ -1,0 +1,57 @@
+/*============    ШРИФТЫ    ===========*/
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
+header {
+  color: white;
+  background-color: silver;
+  height: 100vh;
+}
+header .img {
+  position: fixed;
+  margin-top: 3rem;
+}
+header .nav {
+  position: fixed;
+  width: 600px;
+  text-align: right;
+}
+header h1 {
+  margin-top: 35vh;
+  font-size: 10rem;
+}
+header li {
+  display: inline-block;
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+header li a {
+  font-size: 1.6rem;
+  color: white;
+}
+header li a:hover {
+  text-decoration: none;
+  color: white;
+}
+section .text {
+  height: 100vh;
+}
+section .text h1 {
+  margin-top: 40vh;
+  font-size: 10rem;
+  color: white;
+}
+/*============    ГЛАВНЫЙ ЭКРАН    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ПОДВАЛ    ===========*/
+/*============    	ВСПЛЫВАЮЩИЕ ОКНА    ===========*/
+/*============    	АДАПТИВ    ===========*/
