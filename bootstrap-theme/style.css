@@ -1,0 +1,19 @@
+/*
+Theme Name: WP Bootstrap
+Theme URI: http://sapolgin.net/
+Description: Демонстрационная тема, созданная благодаря Bbootstrap.
+Author: Sapolgin Kirill
+Author URI: http://sapolgin.net/
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC By-Sa 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+Это простая тема была создана на основе примера , найденная на простере интернета
+*/
+
+@import url('vendor/bootstrap/css/bootstrap.min.css');
+@import url('vendor/font-awesome/css/font-awesome.min.css');
+@import url('css/freelancer.min.css');
+
