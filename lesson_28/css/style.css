@@ -1,0 +1,151 @@
+/*============    ШРИФТЫ    ===========*/
+@font-face {
+  font-family: 'Bliss Pro';
+  src: url('/fonts/BlissPro.eot');
+  src: url('/fonts/BlissPro.eot?#iefix') format('embedded-opentype'), url('/fonts/BlissPro.woff2') format('woff2'), url('/fonts/BlissPro.woff') format('woff'), url('/fonts/BlissPro.ttf') format('truetype'), url('/fonts/BlissPro.svg#BlissPro') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bliss Pro';
+  src: url('/fonts/BlissPro-Medium.eot');
+  src: url('/fonts/BlissPro-Medium.eot?#iefix') format('embedded-opentype'), url('/fonts/BlissPro-Medium.woff2') format('woff2'), url('/fonts/BlissPro-Medium.woff') format('woff'), url('/fonts/BlissPro-Medium.ttf') format('truetype'), url('/fonts/BlissPro-Medium.svg#BlissPro-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bliss Pro';
+  src: url('/fonts/BlissPro-ExtraLight.eot');
+  src: url('/fonts/BlissPro-ExtraLight.eot?#iefix') format('embedded-opentype'), url('/fonts/BlissPro-ExtraLight.woff2') format('woff2'), url('/fonts/BlissPro-ExtraLight.woff') format('woff'), url('/fonts/BlissPro-ExtraLight.ttf') format('truetype'), url('/fonts/BlissPro-ExtraLight.svg#BlissPro-ExtraLight') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}
+.reg {
+  font-family: 'Bliss Pro', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.med {
+  font-weight: 500;
+  font-style: normal;
+  font-family: 'Bliss Pro', sans-serif;
+}
+.ex {
+  font-weight: 200;
+  font-style: normal;
+  font-family: 'Bliss Pro', sans-serif;
+}
+/*============    ГЛАВНЫЙ ЭКРАН    ===========*/
+html {
+  font-size: 10px;
+}
+/*============    ШРИФТЫ    ===========*/
+header {
+  background: url(../img/bg.jpg) no-repeat center center;
+  background-size: 110%;
+  height: 100%;
+  background-color: silver;
+}
+header .card {
+  border-radius: 1rem;
+  margin: 9% auto;
+  background-color: #fff;
+  height: 70rem;
+  width: 110rem;
+}
+header .card .card_img {
+  height: 70rem;
+  margin: 0 auto;
+}
+header .card .card_img img {
+  margin-top: 10%;
+  width: 50rem;
+}
+header .card .card_descript {
+  height: 70rem;
+  margin: 0 auto;
+  padding-top: 4rem;
+}
+header .card .card_descript h3 {
+  font-size: 3.5rem;
+  color: #333333;
+}
+header .card .card_descript h4 {
+  font-size: 2.5rem;
+  color: #5c5c5c;
+}
+header .card .card_descript .price {
+  color: #e3b431;
+  font-size: 6rem;
+}
+header .card .card_descript img {
+  height: 2rem;
+  margin-left: 4rem;
+}
+header .card .card_descript p {
+  margin-top: 2rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: #5c5c5c;
+}
+header .card .card_descript .many {
+  height: 6rem;
+  margin-top: 4rem;
+  line-height: 7rem;
+}
+header .card .card_descript .many .minus {
+  margin: 0;
+  height: 5rem;
+  width: 5rem;
+  cursor: pointer;
+}
+header .card .card_descript .many .plus {
+  margin: 0;
+  height: 5rem;
+  width: 5rem;
+  cursor: pointer;
+}
+header .card .card_descript button {
+  margin-top: 5rem;
+  background-color: #f4c13b;
+  border: none;
+  padding: 1.2rem 3.5rem;
+  border-radius: 3rem;
+  font-size: 2rem;
+  color: white;
+  outline: none;
+  box-shadow: 0px 0px 50px 0px #f4c13b;
+}
+header .card .card_descript button a {
+  color: white;
+}
+header .card .card_descript button a:hover {
+  text-decoration: none;
+}
+/*============    ШРИФТЫ    ===========*/
+.wrapper-1 {
+  display: inline-block;
+  height: 6rem;
+}
+.wrapper-2 {
+  display: inline-block;
+  height: 6rem;
+}
+.wrapper-3 {
+  display: inline-block;
+  height: 6rem;
+}
+.score {
+  margin: 0px 1.5rem;
+  font-size: 3rem;
+}
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ПОДВАЛ    ===========*/
+/*============    	ВСПЛЫВАЮЩИЕ ОКНА    ===========*/
+/*============    	АДАПТИВ    ===========*/
