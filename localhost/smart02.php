@@ -23,9 +23,16 @@ $mail->addAddress('sapolgin@mail.ru', 'Joe User');     // Add a recipient
 //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
 //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 $mail->isHTML(true);                                  // Set email format to HTML
+$name=$_POST['name'];
+$email=$_POST['mail'];
+$password=$_POST['pass'];
+
 
 $mail->Subject = 'Это сабджект сообщения';
-$mail->Body    = 'Это тело сообщения дальше жирное <b>блаблабла</b>';
+$mail->Body    = '
+Имя пользователя: '.htmlspecialchars($name).'<br />
+Email:'.htmlspecialchars($email).'<br />
+Пароль:'.htmlspecialchars($password);
 $mail->AltBody = 'Это сообщение в формате plain text';
 
 if(!$mail->send()) {
