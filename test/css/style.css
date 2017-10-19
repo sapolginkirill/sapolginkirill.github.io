@@ -8,6 +8,7 @@ html {
   float: left;
 }
 header {
+  background: url(../img/bg.png) no-repeat center center;
   height: 75rem;
   background-color: silver;
 }
@@ -17,7 +18,7 @@ header .header-top_text {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 20px;
-  color: #383838;
+  color: #4d4d4d;
   margin-top: 22rem;
 }
 header .header_h1 {
@@ -25,7 +26,7 @@ header .header_h1 {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 64px;
-  color: #383838;
+  color: #4d4d4d;
   margin: 0;
 }
 header .middle-block .header-middle_text {
@@ -72,6 +73,7 @@ header .header-bottom_text .img-arrow-r {
   margin-right: 1rem;
 }
 header .header-bottom_text p {
+  color: #4d4d4d;
   font-size: 26px;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
