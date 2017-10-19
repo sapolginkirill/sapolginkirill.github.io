@@ -1,0 +1,222 @@
+/*============    ШРИФТЫ    ===========*/
+/*============    ГЛАВНЫЙ ЭКРАН    ===========*/
+html {
+  font-size: 10px;
+}
+/*============    HEADER    ===========*/
+.header {
+  float: left;
+}
+header {
+  height: 75rem;
+  background-color: silver;
+}
+header .header-top_text {
+  text-transform: uppercase;
+  margin-left: 20%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #383838;
+  margin-top: 22rem;
+}
+header .header_h1 {
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 64px;
+  color: #383838;
+  margin: 0;
+}
+header .middle-block .header-middle_text {
+  margin-top: 1rem;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #333333;
+}
+header .middle-block .header-middle_text .usualy {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 17px;
+}
+header .middle-block .header-middle_text .header_green {
+  color: #00a99d;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 17px;
+}
+header .middle-block .header-middle_text .header_uppercase {
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+header .header-bottom_text {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+header .header-bottom_text .img-line {
+  display: inline-block;
+}
+header .header-bottom_text .img-arrow-l {
+  display: inline-block;
+  margin-left: 1rem;
+}
+header .header-bottom_text .img-arrow-r {
+  display: inline-block;
+  margin-right: 1rem;
+}
+header .header-bottom_text p {
+  font-size: 26px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  display: inline-block;
+}
+header .header-bottom_text p .green-2 {
+  color: #00a99d;
+}
+header .img-header {
+  text-align: center;
+}
+/*============    NAV    ===========*/
+#nav {
+  border-bottom: 1.5px solid #dedede;
+  height: 10rem;
+}
+#nav .logotype {
+  height: 10rem;
+  line-height: 10rem;
+}
+#nav .nav-ul {
+  height: 10rem;
+  line-height: 10rem;
+  display: inline-block;
+  padding: 0;
+  margin-left: 8rem;
+}
+#nav .nav-ul .nav-li {
+  text-transform: uppercase;
+  display: inline;
+}
+#nav .nav-ul .nav-li a {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 13px;
+  color: #606060;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+}
+#nav .nav-ul .nav-li a:hover {
+  transition: all 0.2s;
+  text-decoration: none;
+  color: white;
+  background-color: #00a99d;
+}
+#nav .search {
+  height: 10rem;
+  line-height: 10rem;
+  float: right;
+  display: inline-block;
+}
+/*============    WHAT    ===========*/
+#what {
+  height: 55rem;
+}
+#what .what-top-block {
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+#what .what-top-block .what-line {
+  display: inline-block;
+}
+#what .what-top-block .img-arrow-l {
+  display: inline-block;
+}
+#what .what-top-block .img-arrow-r {
+  display: inline-block;
+}
+#what .what-top-block p {
+  margin: 0 1rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 26px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+#what .what-top-block p .what-green {
+  color: #00a99d;
+}
+#what .what-top-block .what-span {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 1rem;
+  color: #919191;
+  display: block;
+}
+#what .card {
+  padding-top: 2rem;
+  height: 30rem;
+  width: 37rem;
+}
+#what .card:hover {
+  transition: all 0.2s;
+  box-shadow: 0px 0px 30px 1px silver;
+}
+#what .card:hover .card-img {
+  background-color: #00a99d;
+}
+#what .card:hover a {
+  text-decoration: none;
+  background-color: #00a99d;
+  color: white;
+}
+#what .card .card-img {
+  background-color: #383838;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+#what .card .card-img img {
+  margin-top: 50%;
+  transform: translateY(-50%);
+}
+#what .card h4 {
+  margin: 0;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  color: #606060;
+  text-transform: uppercase;
+}
+#what .card p {
+  font-size: 13px;
+  line-height: 2.5rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  margin-bottom: 2.5rem;
+  color: #7a7a7a;
+}
+#what .card a {
+  color: #7a7a7a;
+  padding: 1rem 1.2rem;
+  border-radius: 0.5rem;
+  border: 1px solid #dedede;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 10px;
+}
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ПОДВАЛ    ===========*/
+/*============    	ВСПЛЫВАЮЩИЕ ОКНА    ===========*/
+/*============    	АДАПТИВ    ===========*/
